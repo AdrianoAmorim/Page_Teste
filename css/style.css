@@ -30,6 +30,8 @@ body{
 .box-button-menuAside{
     display:flex;
     flex-direction: column;
+    margin-right: 6rem;
+    cursor: pointer;
 }
 .box-button-menuAside .line-button-menu{
     width: 1.7rem;
@@ -60,12 +62,13 @@ body{
     font-family: 'Pacaembu Trial', sans-serif;
     font-size: .7rem;
     box-shadow: 0px 2px 9px 1px #f3f3f3;
+    cursor: pointer;
 }
 .button-header img{
     margin-right: .6rem;
 }
 /*----------------------------------------*/
-
+/*LOGO HEADER*/
 .box-logo-header{
     width: 100%;
     max-width: 12rem;
@@ -73,4 +76,36 @@ body{
 }
 .box-logo-header img{
     width: 100%;
+}
+/*-------------------------------------------*/
+
+.box-search-header{
+    display: flex;
+    align-items: center;
+}
+.box-search-header input{
+    flex: 1;
+    height: 2.8rem;
+    width: 17rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    color: var(--text-black);
+    box-shadow: 0px 2px 9px 1px #f3f3f3;
+    padding-inline-start: 1rem;
+    font-family: 'Pacaembu Trial', sans-serif;
+    font-size: .7rem;
+}
+.box-search-header button{
+    padding: .5rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--pink);
+    margin-left: -2.3rem;
+    cursor: pointer;
+}
+
+.box-search-header button img{
+    max-width: 100%;
 }
