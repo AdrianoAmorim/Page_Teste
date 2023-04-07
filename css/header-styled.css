@@ -1,0 +1,121 @@
+/*HEADER */
+.box-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.8rem;
+    margin-bottom: 1.4rem;
+  }
+  
+  /*---- BUTTON MENU ASIDE*/
+  .box-button-menuAside {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+    cursor: pointer;
+  }
+  .box-button-menuAside .line-button-menu {
+    width: 1.7rem;
+    border: 2px solid var(--text-black);
+    margin-bottom: 0.2rem;
+    border-radius: 1.8rem;
+  }
+  .box-button-menuAside .line-button-menu:nth-child(2) {
+    width: 1.4rem;
+  }
+  .box-button-menuAside .line-button-menu:nth-child(3) {
+    width: 1.1rem;
+  }
+  /*---------------------------------------------*/
+  /*BUTTONS HEADER*/
+  .box-buttons-header {
+    display: flex;
+    gap: 0.9rem;
+  }
+  .button-header {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1.2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2.2rem;
+    color: var(--text-black);
+    font-family: "Pacaembu Trial", sans-serif;
+    font-size: 0.7rem;
+    box-shadow: 0px 2px 9px 1px #f3f3f3;
+    cursor: pointer;
+  }
+  .button-header img {
+    margin-right: 0.6rem;
+  }
+  /*----------------------------------------*/
+  /*LOGO HEADER*/
+  .box-logo-header {
+    width: 100%;
+    max-width: 12rem;
+    margin: auto;
+  }
+  .box-logo-header img {
+    width: 100%;
+  }
+  /*-------------------------------------------*/
+  /*INPUT SEARCH HEADER*/
+  .box-search-header {
+    display: flex;
+    align-items: center;
+  }
+  .box-search-header input {
+    flex: 1;
+    height: 2.8rem;
+    width: 17rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    color: var(--text-black);
+    box-shadow: 0px 2px 9px 1px #f3f3f3;
+    padding-inline-start: 1rem;
+    font-family: "Pacaembu Trial", sans-serif;
+    font-size: 0.7rem;
+  }
+  .box-search-header button {
+    padding: 0.5rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--pink);
+    margin-left: -2.3rem;
+    cursor: pointer;
+  }
+  
+  .box-search-header button img {
+    max-width: 100%;
+  }
+  /*------------------------------------------------------------------*/
+  /*NAVBAR - MENU*/
+  .box-navbar {
+    display: flex;
+    width: 100%;
+  }
+  .box-navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .box-navbar li {
+    list-style: none;
+    font-family: "Pacaembu Trial", sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    border-bottom: 0.2rem solid var(--pink);
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
+  }
+  .box-navbar li a {
+    display: block;
+    text-decoration: none;
+    color: var(--text-gray);
+    padding-bottom: 0.8rem;
+  }
+  /*-------------------------------------------------------------------*/
