@@ -1,0 +1,43 @@
+@import url("paletteColor.css");
+
+/*RESET CONFIGS*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+/*STYLED GLOBALS*/
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-main);
+}
+.container{
+    width: 100%;
+    max-width: 74rem;
+}
+
+/*HEADER */
+.box-content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.1rem;
+}
+
+.box-menu-aside{
+    display:flex;
+    flex-direction: column;
+}
+.box-menu-aside .line-button-menu{
+    width: 1.7rem;
+    border: 2px solid var(--text-black);
+    margin-bottom: .2rem;
+    border-radius: 1.8rem;
+}
+.line-button-menu:nth-child(2){
+    width: 1.4rem;
+}
+.line-button-menu:nth-child(3){
+    width: 1.1rem;
+}
