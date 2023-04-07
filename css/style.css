@@ -9,7 +9,8 @@
 /*STYLED GLOBALS*/
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--background-main);
 }
 .container{
@@ -108,4 +109,18 @@ body{
 
 .box-search-header button img{
     max-width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+.article-selecao{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 27rem;
+    background-image: url("../assets/img/selecao.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
