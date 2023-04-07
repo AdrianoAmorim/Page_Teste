@@ -22,22 +22,44 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 9.1rem;
+    height: 9rem;
 }
 
-.box-menu-aside{
+/*---- BUTTON MENU ASIDE*/
+.box-button-menuAside{
     display:flex;
     flex-direction: column;
 }
-.box-menu-aside .line-button-menu{
+.box-button-menuAside .line-button-menu{
     width: 1.7rem;
     border: 2px solid var(--text-black);
     margin-bottom: .2rem;
     border-radius: 1.8rem;
 }
-.line-button-menu:nth-child(2){
+.box-button-menuAside .line-button-menu:nth-child(2){
     width: 1.4rem;
 }
-.line-button-menu:nth-child(3){
+.box-button-menuAside .line-button-menu:nth-child(3){
     width: 1.1rem;
+}
+/*---------------------------------------------*/
+.box-buttons-header{
+    display: flex;
+    width: 100%;
+    gap: .9rem;
+}
+.button-header{
+    display: flex;
+    align-items: center;
+    padding: .6rem 1.2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2.2rem;
+    color: var(--text-black);
+    font-family: 'Pacaembu Trial', sans-serif;
+    font-size: .7rem;
+    box-shadow: 0px 2px 9px 1px #f3f3f3;
+}
+.button-header img{
+    margin-right: .6rem;
 }
