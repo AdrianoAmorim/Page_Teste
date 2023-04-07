@@ -15,6 +15,7 @@ body{
 .container{
     width: 100%;
     max-width: 74rem;
+    padding: 0 2rem;
 }
 
 /*HEADER */
@@ -43,9 +44,9 @@ body{
     width: 1.1rem;
 }
 /*---------------------------------------------*/
+/*BUTTONS HEADER*/
 .box-buttons-header{
     display: flex;
-    width: 100%;
     gap: .9rem;
 }
 .button-header{
@@ -62,4 +63,14 @@ body{
 }
 .button-header img{
     margin-right: .6rem;
+}
+/*----------------------------------------*/
+
+.box-logo-header{
+    width: 100%;
+    max-width: 12rem;
+    margin: auto;
+}
+.box-logo-header img{
+    width: 100%;
 }
