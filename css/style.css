@@ -1,7 +1,7 @@
 @import url("paletteColor.css");
 @import url("header-styled.css");
 @import url("home-styled.css");
-@import url("slider_home.css");
+@import url("news.css");
 
 /*RESET CONFIGS*/
 * {
@@ -18,6 +18,7 @@ body {
 }
 main {
   width: 100%;
+  
   height: 100%;
 }
 .container {
@@ -31,3 +32,38 @@ main {
   flex-direction: column;
 }
 
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.box-buttons-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-buttons-top a {
+  text-decoration: none;
+  color: var(--text-white);
+  font-family: "Pacaembu Trial", sans-serif;
+  font-weight: 200;
+  font-size: 0.6rem;
+  padding: 0.2rem 0.9rem;
+  border-radius: 2rem;
+  border: 2px solid var(--text-white);
+  background-color: #231f2045;
+  transition: all .2s ease-in-out;
+}
+
+.box-buttons-top a:hover{
+  border: 2px solid var(--pink);
+}
+ 
+.box-buttons-top a:nth-child(2) {
+  border: none;
+  background-color: var(--pink);
+  transition: background-color .2s ease-in-out ;
+}
+
+.box-buttons-top a:nth-child(2):hover{
+  background-color: #e70c64;
+}

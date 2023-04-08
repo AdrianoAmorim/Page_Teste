@@ -11,7 +11,7 @@
   .box-button-menuAside {
     display: flex;
     flex-direction: column;
-    margin-right: 6rem;
+   
     cursor: pointer;
   }
   .box-button-menuAside .line-button-menu {
@@ -30,6 +30,7 @@
   /*BUTTONS HEADER*/
   .box-buttons-header {
     display: flex;
+    margin:  auto;
     gap: 0.9rem;
   }
   .button-header {
@@ -44,6 +45,10 @@
     font-size: 0.7rem;
     box-shadow: 0px 2px 9px 1px #f3f3f3;
     cursor: pointer;
+    transition: background-color .2s ease-in-out;
+  }
+  .button-header:hover {
+    background-color: #dad8d8;
   }
   .button-header img {
     margin-right: 0.6rem;
@@ -63,6 +68,7 @@
   .box-search-header {
     display: flex;
     align-items: center;
+    margin-left: 4rem;
   }
   .box-search-header input {
     flex: 1;
@@ -83,8 +89,12 @@
     border-radius: 50%;
     border: none;
     background-color: var(--pink);
-    margin-left: -2.3rem;
+    margin-left: -2.1rem;
     cursor: pointer;
+    transition: background-color .2s ease-in-out;
+  }
+  .box-search-header button:hover{
+    background-color: #e70c64;
   }
   
   .box-search-header button img {
@@ -108,14 +118,23 @@
     font-family: "Pacaembu Trial", sans-serif;
     font-weight: 300;
     font-size: 0.8rem;
-    border-bottom: 0.2rem solid var(--pink);
+    border-bottom: 0.2rem solid transparent;
     border-radius: 0 0 3px 3px;
     overflow: hidden;
+    transition: border-bottom .2s ease-in;
+  }
+
+  .box-navbar li:hover{
+    border-bottom: 0.2rem solid var(--pink) ;
+   
   }
   .box-navbar li a {
     display: block;
     text-decoration: none;
     color: var(--text-gray);
     padding-bottom: 0.8rem;
+  }
+  .box-navbar li a:hover{
+    color: var(--text-black);
   }
   /*-------------------------------------------------------------------*/

@@ -1,0 +1,123 @@
+.slider-home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+.slider-home .box-slider-home {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  height: 23.9rem;
+  gap: 1.3rem;
+}
+.slider-home .slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../assets/img/img_covid.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 100%;
+  flex: 2;
+}
+.box-text-news {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-home .aside-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-height: 100%;
+  background-image: url("../assets/img/img_tatuzao.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: 1;
+}
+/*-------------------------------------------------------------------*/
+/*NEWS VARIED STYLED*/
+.news-varied {
+  display: flex;
+  justify-content: center;
+}
+
+.box-main-news {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+}
+.box-news {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  flex: 1;
+}
+.item h3 {
+  color: var(--pink);
+  font-family: "Pacaembu Trial", sans-serif;
+  font-weight: bold;
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+.item p {
+  color: var(--text-black);
+  font-family: "Pacaembu Trial", sans-serif;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+.item .text-item {
+  margin-left: 0.5rem;
+}
+.box-lotomania {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  flex: 1;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.item-lotomania,.box-title-clima {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0px 2px 9px 1px #f3f3f3;
+}
+.item-lotomania .box-title-lotomania,
+.box-title-clima {
+  margin-bottom: 0.6rem;
+}
+.item-lotomania .box-title-lotomania h4,
+.box-title-clima h4 {
+  color: var(--text-black);
+  font-family: "Pacaembu Trial", sans-serif;
+  font-size: 0.7rem;
+}
+.item-lotomania .box-title-lotomania span,
+.box-title-clima span {
+  color: var(--text-gray);
+  font-family: "Pacaembu Trial", sans-serif;
+  font-size: 0.6rem;
+}
+.item-lotomania .box-number-sorteado {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+}
+.item-lotomania .box-number-sorteado span {
+  font-family: "Pacaembu Trial", sans-serif;
+  font-size: 0.7rem;
+  background-color: #e67300;
+  color: var(--text-white);
+  padding: 0.4rem;
+  border-radius: 50%;
+}
