@@ -11,7 +11,6 @@
   .box-button-menuAside {
     display: flex;
     flex-direction: column;
-   
     cursor: pointer;
   }
   .box-button-menuAside .line-button-menu {
@@ -105,7 +104,6 @@
   .box-navbar {
     display: flex;
     width: 100%;
-    min-width: 1000px;
   }
   .box-navbar ul {
     display: flex;
