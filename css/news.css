@@ -18,11 +18,33 @@
   flex-direction: column;
   justify-content: space-between;
   background-image: url("../assets/img/img_covid.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   max-height: 100%;
   flex: 2;
+  border-radius: 30px;
+  padding: 1rem;
+  box-shadow: inset 15px -70px 60px 2px #000000cc
+}
+.slider-home .slider .box-text-slider h2 {
+  color: var(--text-white);
+  font-family: "Pacaembu Trial", sans-serif;
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+.slider-home .slider .box-text-slider h2::before {
+  content: "•";
+  color: var(--pink);
+  font-size: 1.2rem;
+  margin-right: .4rem;
+}
+.slider-home .slider .box-text-slider p{
+  color: var(--text-white);
+  font-family: "Pacaembu Trial", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 .box-text-news {
   display: flex;
@@ -36,7 +58,7 @@
   width: 100%;
   max-height: 100%;
   background-image: url("../assets/img/img_tatuzao.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   flex: 1;
 }
@@ -79,13 +101,18 @@
 .box-lotomania {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 2fr;
   flex: 1;
   gap: 10px;
   padding: 1rem;
 }
-
-.item-lotomania,.box-title-clima {
+.item-news-lotomania .item {
+  margin-bottom: 1rem;
+}
+.item-news-lotomania{
+}
+.item-lotomania,
+.item-clima {
   padding: 1rem;
   background-color: #fff;
   border-radius: 1.2rem;
@@ -120,4 +147,31 @@
   color: var(--text-white);
   padding: 0.4rem;
   border-radius: 50%;
+}
+
+.item-clima .box-clima {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.item-clima .box-title-clima {
+  width: 100%;
+}
+.item-clima .box-clima .text-clima {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+.item-clima .box-clima .text-clima span:nth-child(1) {
+  font-family: "Pacaembu Trial", sans-serif;
+  font-size: 0.6rem;
+  color: #e67300;
+}
+.item-clima .box-clima .text-clima span:nth-child(2) {
+  font-family: "Pacaembu Trial", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-black);
 }

@@ -69,3 +69,9 @@
     font-size: .8rem;
     margin-top: .2rem;
   }
+
+  @media (max-width:900px) {
+    .box-articles-section{
+      flex-direction: column;
+    }
+  }

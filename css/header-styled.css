@@ -105,6 +105,7 @@
   .box-navbar {
     display: flex;
     width: 100%;
+    min-width: 1000px;
   }
   .box-navbar ul {
     display: flex;
@@ -138,3 +139,15 @@
     color: var(--text-black);
   }
   /*-------------------------------------------------------------------*/
+
+  @media (max-width: 900px){
+    .box-content-header{
+      flex-direction: row-reverse;
+    }
+    .box-buttons-header button:nth-child(2){
+      display: none;
+    }
+  .box-search-header{
+      display: none;
+    }
+  }
