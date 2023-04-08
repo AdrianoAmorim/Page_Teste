@@ -1,0 +1,88 @@
+.slider-home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.7rem;
+}
+.slider-home .box-slider-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-home .slider {
+  display: block;
+  position: relative;
+  flex: 3;
+}
+.slider-home .slider input{
+    display: none;
+}
+.slider-home .slider label{
+    display: block;
+    position: absolute;  
+    border-radius: 50%;  
+    width: .6rem;
+    height: .6rem;
+    bottom: 20px;
+    background-color: var(--text-white);
+    cursor: pointer;
+    z-index: 10;
+}
+.slider-home .slider .slide:nth-child(1) label{
+    left: 1.3rem;
+}
+.slider-home .slider .slide:nth-child(2) label{
+    left: 2.3rem;
+}
+.slider-home .slider .slide:nth-child(3) label{
+    left: 3.3rem;
+}
+.slider-home .slider .slide {
+    position: absolute;
+}
+
+.slider-home .slider .slide input:checked ~ img{
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+.slider .slide img{
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+.box-buttons-slider-home{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 49rem;
+    padding: 1rem;
+}
+.box-buttons-slider-home a{
+    text-decoration: none;
+    color: var(--text-white);
+    font-family: "Pacaembu Trial", sans-serif;
+    font-weight: 200;
+    font-size: 0.6rem;
+    padding: 0.2rem 0.9rem;
+    border-radius: 2rem;
+    border: 2px solid var(--text-white);
+    background-color: #231f2045;
+}
+.box-buttons-slider-home a:nth-child(2){
+    border: none;
+    background-color: var(--pink);
+}
+
+.box-button-action-slider{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    max-width: 49rem;
+    z-index: 10;
+
+}
